@@ -1,0 +1,79 @@
+.footer {
+    background-color: rgba(#E2E2E2, .7);
+    overflow: hidden;
+    padding-top: 50px;
+    margin-top: 70px;
+    .gallery, .info, .contact {
+        float: $float-left;
+    }
+    .gallery {
+        width: 40%;
+        .gallery-box{
+            overflow: hidden;
+            img {
+                float: $float-left;
+                width: 50%;
+                margin-bottom: 15px;
+            }
+            .text {
+                float: $float-left;
+                width: 40%;
+                margin-left: 5%;
+                margin-right: 5%;
+                h4 {
+                    color: $redColor;
+                }
+                p {
+                    color: #666;
+                    line-height: 1.9;
+                }
+            }
+        }
+
+    }
+    .info {
+        width: 30%;
+        ul {
+            margin-top: 35px;
+            li {
+                padding-bottom: 10px;
+                color: #666;
+            }
+        }
+        h4 {
+            color: $redColor;
+        }
+        p {
+            color: #666;
+        }
+    }
+    .contact {
+        width: 30%;
+        form {
+            input {
+                margin-bottom: 15px;
+                padding: 10px; 
+            }
+        }
+    }
+    .section-title {
+        color: #333;
+        font-weight: bold;
+    }
+    .copyrights {
+        padding: 25px 0;
+        border-top: 1px solid #C5C5C5;
+        overflow: hidden;
+        color: #666;
+        .copytext {
+            float: $float-left;
+            width: 50%;
+        }
+        .author {
+            float: $float-left;
+            width: 50%;
+            text-align: $text-right;
+        }
+    }
+}
+

@@ -1,0 +1,57 @@
+.header {
+    padding: 20px 0;
+    border-bottom: 1px solid $greyColor;
+    overflow: hidden;
+    .logo {
+        width: 30%;
+        float: $float-left;
+        @media #{$minSmall} {
+            float: none;
+            width: 100%;
+            text-align: center;
+        }
+        @media #{$minMedium} {
+            width: 30%;
+            float: $float-left;
+            text-align: $text-left;
+        }
+        h2 {
+            margin-bottom: 0;
+            margin-top: 10px;
+        }
+        p {
+            color: #000
+        }
+    }
+    .navbar {
+        overflow: hidden;
+        width: 70%;
+        float: $float-left;
+        background-color: $redColor;
+        border-radius: 15px;
+        @media #{$minSmall} {
+            float: none;
+            width: 100%;
+            text-align: center;
+        }
+        @media #{$minMedium} {
+            float: $float-left;
+            width: 70%;
+        }
+        li {
+            width: 20%;
+            float: $float-left;
+            text-align: center;
+            a {
+                display: block;
+                padding: 15px 10px;
+                color: #FFF;
+                font-size: 15px;
+                text-decoration: none;
+                &:hover {
+                    color: #DDD;
+                }
+            }
+        }
+    }
+}

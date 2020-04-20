@@ -1,0 +1,15 @@
+.main-button {
+    background-color: rgba($color: $redColor, $alpha: .8);
+    border-radius: 5px;
+    margin-top: 15px;
+    color: #FFF;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    &:hover {
+        background-color: $redColor;
+    }
+}
